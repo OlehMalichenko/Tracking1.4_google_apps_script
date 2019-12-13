@@ -1,4 +1,4 @@
-// call to sheet at ID 1p7pFjyjn3EbidjPuBrL0FncnKYeY-u65VwjDRFnCGhE
+// call to sheet at ID
 function getSpending_old(forDate) {
   var sheet = getSheetSpendingOverview();
   var lastRow = sheet.getLastRow();
@@ -34,7 +34,7 @@ function getSpending_old(forDate) {
 
 
 
-// call to sheet at ID 1p7pFjyjn3EbidjPuBrL0FncnKYeY-u65VwjDRFnCGhE
+// call to sheet at ID
 function getSpending(forDateTmp) {
   var sheet = getSheetSpendingOverview();
   var lastRow = sheet.getLastRow();
@@ -90,7 +90,7 @@ function convertFromUSD(amount, date){
 
 
 function getSheetSpendingOverview(){
-  var app  = SpreadsheetApp.openById("1p7pFjyjn3EbidjPuBrL0FncnKYeY-u65VwjDRFnCGhE");
+  var app  = SpreadsheetApp.openById("***");
   var ss   = app.getActiveSheet();
   return ss;
 }
